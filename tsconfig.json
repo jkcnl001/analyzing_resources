@@ -17,6 +17,7 @@
     ],
     "paths": {
       "@/*": [
+        "renderer/src/*",
         "src/*"
       ]
     },
@@ -28,11 +29,12 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "renderer/src/**/*.ts",
+    "renderer/src/**/*.tsx",
+    "renderer/src/**/*.vue",
+    "renderer/tests/**/*.ts",
+    "renderer/tests/**/*.tsx",
+    "src/**/*.ts", "src/main/main.js", "src/main/preload.js"
   ],
   "exclude": [
     "node_modules"
